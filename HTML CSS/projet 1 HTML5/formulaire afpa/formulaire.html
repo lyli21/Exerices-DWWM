@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="formulaire.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1728373305403">
+    </header>
+    <main>
+
+        <form  action="" method="">
+        <section id="formulaire">
+
+        <article class="largeur-article">
+            
+                <input class="zone-saisie" type="text" id="Nom-Prénom" placeholder="Nom-Prénom">
+                <br>
+                <br>
+                <input class="zone-saisie" name="email" type="email" placeholder="Courriel">
+                <br>
+                <br>
+                    <label for="phone"></label>
+                    <input class="zone-saisie" type="tel" id="phone" name="phone"
+                        pattern="\+?[0-9]{1,3}[\s]?[0-9]{1,4}[\s]?[0-9]{1,4}[\s]?[0-9]{1,4}" placeholder="Téléphone"
+                        required>
+                        <br>
+                        <br>
+                    <select class="zone-saisie" id="deroulant" name="genre" size="1" aria-placeholder="Vous êtes">
+                    <option disabled selected>Vous êtes</option>
+                        <option >Développeur</option>
+                        <option>Chef de projet</option>
+                        <option>Lead Dev</option>
+                    </select>
+                    <br>
+                    <br>
+                    <textarea class="zone-saisie"  placeholder="Commentaires"></textarea>
+                    <!--commentaires à regler pas sùr de la dimension-->
+        </article>
+        <!--colonne droite-->
+        <article class="largeur-article">
+            
+               <b>Quelle est la meilleure manière de vous contacter ?</b><br>
+                <input type="radio"class="zone-saisie2"> Téléphone
+                <br>
+                <input type="radio" class="zone-saisie2"> Courriel
+                <br>
+                <p><b>Jours de la semaine où vous êtes disponible :</b></p>
+                <input type="checkbox" class="zone-saisie2"> Lundi
+                <br>
+                <input type="checkbox"class="zone-saisie2"> Mardi
+                <br>
+                <input type="checkbox"class="zone-saisie2"> Mercredi
+                <br>
+                <input type="checkbox"class="zone-saisie2"> Jeudi
+                <br>
+                <input type="checkbox"class="zone-saisie2"> Vendredi
+                <br>
+                <p> <strong>Heure appropriée pour un rendez-vous:</strong></p>
+                <input type="checkbox"class="zone-saisie2">Matin
+                <br>
+                <input type="checkbox"class="zone-saisie2">Après-midi
+        </article>
+        <br>
+        <br>
+    </section> 
+    <section>
+        <article  class="bouton">
+       <button> Envoyer</button>
+     </article>
+    </section>
+</form>
+    </main>
+</body>
+
+</html>

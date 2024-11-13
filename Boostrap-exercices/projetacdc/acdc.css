@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'hard_rock';
+    src: url(fonts/HARD_ROCK.ttf);
+} 
+@font-face {
+    font-family: 'rocknroll';
+    src: url(fonts/rocknroll_typo_crazy.ttf);
+}
+@font-face {
+    font-family: 'the_dark';
+    src: url(fonts/TheDark.ttf);
+}
+
+
+
+body {
+    background-color: black;
+}
+
+header{
+    align-items: center;  
+    justify-content: space-around;
+}
+
+.pos-img {
+    display: grid;
+    grid-column: auto;
+    width: 10%;
+}
+
+.pos-nav {
+    display: flex;
+    font-family:'the_dark';
+    font-size: 160%;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    color: rgba(255, 0, 0, 0.705);
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5%;
+    }
+.pose-m {
+    display: flex;
+    width: 30px;
+}
+
+.plc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'the_dark';
+    font-size: 30px;
+    color: #fff;
+    margin: 30px;
+}
+
+.img-fluid {
+    border: solid #fff;
+}
+
+.griid{
+    margin: 5%%;
+}
+
+
+.card {
+    display: flex;
+  
+    margin: 5%;
+    padding: 5%;
+    justify-content: center;
+}
+
+.titre-d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'the_dark';
+    font-size: 30px;
+    color: #fff;
+    margin: 30px;
+}
+
+
+.disco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

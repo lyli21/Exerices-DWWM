@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #444;
+}
+
+h1 {
+  color: #ff0;
+}
+
+p {
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */

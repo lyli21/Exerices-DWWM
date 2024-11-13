@@ -1,0 +1,35 @@
+section {
+	display:flex;
+	flex-wrap: wrap;		
+}
+
+article {
+	background-color:green;
+	display:flex;
+}
+
+@media only screen and (min-width: 600px) {
+
+	article {
+		width:50%;
+	}
+	
+}
+
+@media only screen and (min-width: 768px) {
+
+	article {
+		width:33.3333333%;
+	}
+	
+}
+
+@media only screen and (min-width: 992px) {
+
+	article {
+		width:25%;
+	}
+	
+}
+
+

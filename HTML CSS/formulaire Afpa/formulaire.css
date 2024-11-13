@@ -1,0 +1,54 @@
+#body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+    width: 50%;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bouton {
+    
+    width: 100%;
+    height:25px;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton > button {
+    width:100%;
+    background-color: aquamarine;
+}
+.zone-saisie{
+    width: 100%;
+    background: rgb(218, 217, 215);
+}
+
+textarea {
+    height: 138px;
+}
+.zone-saisie2 {
+}
+.largeur-article {
+    
+    width: 50%;
+    
+    padding: 15px;font-size: 16px;
+    
+}
+.class {
+   flex-wrap: wrap-reverse;
+}
